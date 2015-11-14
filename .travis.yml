@@ -5,3 +5,4 @@ deploy:
   app: guarded-stream-7829
   on:
     repo: cotsog/ruby-sample
+script: true
