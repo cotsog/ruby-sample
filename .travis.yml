@@ -1,6 +1,6 @@
 before_deploy:
   - cat .bundle/config
-  - du -sh ./*
+  - du -sh ./vendor/*
 deploy:
   provider: heroku
   api_key:
