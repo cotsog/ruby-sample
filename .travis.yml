@@ -13,3 +13,4 @@ deploy:
     repo: cotsog/ruby-sample
 script: true
 cache: bundler
+bundler_args: --no-cache
