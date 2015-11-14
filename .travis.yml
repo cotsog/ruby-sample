@@ -1,6 +1,6 @@
 before_deploy:
   - cat .bundle/config
-  - du -sh ./vendor/*
+  - du -sh ./vendor/bundle/ruby/2.2.0/gems/*
 deploy:
   provider: heroku
   api_key:
