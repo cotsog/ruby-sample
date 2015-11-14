@@ -10,3 +10,4 @@ deploy:
   on:
     repo: cotsog/ruby-sample
 script: true
+cache: bundler
