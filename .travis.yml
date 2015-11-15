@@ -3,6 +3,7 @@ before_deploy:
   - ls -al
   - du -sh ./*
   - du -sh ./vendor/bundle/ruby/2.2.0/gems/* | grep M | sort
+  - du -sh ./vendor/bundle/ruby/2.2.0/gems/nokogiri-1.6.6.2/*
 deploy:
   provider: heroku
   api_key:
