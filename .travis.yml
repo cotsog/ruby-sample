@@ -2,7 +2,7 @@ before_deploy:
   - cat .bundle/config
   - ls -al
   - du -sh ./*
-  - du -sh ./vendor/bundle/ruby/2.2.0/gems/*
+  - du -sh ./vendor/bundle/ruby/2.2.0/gems/* | grep M | sort
 deploy:
   provider: heroku
   api_key:
