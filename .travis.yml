@@ -1,4 +1,3 @@
-# Trigger
 before_deploy:
   - cat .bundle/config
   - ls -al
