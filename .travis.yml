@@ -14,10 +14,10 @@ deploy:
   app: guarded-stream-7829
   on:
     repo: cotsog/ruby-sample
+    branches: master
   edge:
     source: cotsog/dpl
     branch: heroku-debug
-  all_branches: true
 script: true
 cache: bundler
 bundler_args: --no-cache
